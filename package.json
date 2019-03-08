@@ -1,0 +1,23 @@
+{
+  "name": "personalblog",
+  "version": "1.0.0",
+  "description": "Personal blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekp314/PersonalBlog.git"
+  },
+  "author": "abhishek.porwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekp314/PersonalBlog/issues"
+  },
+  "homepage": "https://github.com/abhishekp314/PersonalBlog#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}
