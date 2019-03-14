@@ -10,9 +10,7 @@ app.set('view engine', 'pug');
 
 // public functions
 app.get('/', function(req, res) {
-  res.render('index', { Title: 'Abhishek\'s Blog', 
-  Message: 'First Post',
-})});
+  res.render('index')});
 
 // port listening on 
 app.listen(3000, function() {
